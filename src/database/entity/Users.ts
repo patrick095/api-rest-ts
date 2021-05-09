@@ -18,6 +18,16 @@ export class Users {
     @Column()
     password: string;
 
+    @Column({
+        type: 'boolean',
+        nullable: false,
+        default: false
+    })
+    verified: boolean = false;
+
+    @Column()
+    token: string = '';
+
     @Column({type: 'date'})
     createdAt: Date;
 

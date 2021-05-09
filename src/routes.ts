@@ -10,5 +10,6 @@ routes.get('/', (req, res) => {
 
 routes.post('/signin', UserController.signIn);
 routes.post('/signup', UserController.signUp);
+routes.get('/activation', UserController.activateAccount);
 
 export default routes;
