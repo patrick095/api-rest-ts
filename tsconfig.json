@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
+    "moduleResolution": "node",
     "lib": ["ES6"],
     "allowJs": true,
     "outDir": "./dist",
@@ -22,6 +23,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true
   }
 }
